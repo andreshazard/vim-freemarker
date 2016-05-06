@@ -2,8 +2,8 @@ VIM-Freemarker
 ==============
 
 When opening a .ftl file the filetype will be set to "freemarker"
-this will activate the syntax highliting.
-The highliting is focus on freemarke however it includes most commun html tags
+this will activate the syntax highlighting.
+The highlighting is focus on freemarker however it includes most common HTML tags
 
 The plugin also has some functions for quick editing.
 
@@ -20,6 +20,13 @@ add to your vimrc
 ```
 Plugin 'andreshazard/vim-freemarker'
 ```
+
+Highlighting
+------------
+
+The color will depend on your colorscheme
+
+![example](http://i.imgur.com/NH3sMXd.png?1)
 
 Functions and Mapping
 ---------------------
