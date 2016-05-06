@@ -26,7 +26,7 @@ Highlighting
 
 The color will depend on your colorscheme
 
-![example](http://i.imgur.com/NH3sMXd.png?1)
+![example](http://i.imgur.com/ZMyk3V6.png)
 
 Functions and Mapping
 ---------------------
