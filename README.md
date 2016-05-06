@@ -3,7 +3,6 @@ VIM-Freemarker
 
 When opening a .ftl file the filetype will be set to "freemarker"
 this will activate the syntax highlighting.
-The highlighting is focus on freemarker however it includes most common HTML tags
 
 The plugin also has some functions for quick editing.
 
