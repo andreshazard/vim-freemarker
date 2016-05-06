@@ -14,13 +14,12 @@
 INTRODUCTION                                    *freemarker*
 
 When opening a .ftl file the filetype will be set to "freemarker"
-this will activate the syntax highliting.
-The highliting is focus on freemarke however it includes most commun html tags
+this will activate the syntax highlighting.
 
 
 MAPPINGS                                        *freemarker-mappings*
 
-The plugin has the follwing functions that you can map :
+The plugin has the follwing functions that you can map in your vimrc :
 
 :call PutIf()
 
