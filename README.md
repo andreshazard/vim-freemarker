@@ -71,3 +71,5 @@ It will insert the assign tag and leave the cursor on insert mode
 
                     :nnoremap <leader>fa :call FTLAssign()<CR>
 
+
+[![asciicast](https://asciinema.org/a/8j855own08xueb99zt5r4s1xa.png)](https://asciinema.org/a/8j855own08xueb99zt5r4s1xa)
