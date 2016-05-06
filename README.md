@@ -26,41 +26,41 @@ Functions and Mapping
 
 The plugin has the follwing functions that you can map in your vimrc :
 
-:call PutIf()
+:call FTLIf()
 
 It will insert the basic if tags (#if-#else) and leave the cursor after the if tag
 in insert mode
 You can use this map in your vimrc
 
-                    :nnoremap <leader>fi :call PutIf()<CR>
+                    :nnoremap <leader>fi :call FTLIf()<CR>
 
-:call PutList()
+:call FTLList()
 
 It will insert the basic list tags(#list-#else-/#list). Cursor after the list tag in
 insert mode
 You can use this map in your vimrc
 
-                    :nnoremap <leader>fl :call PutList()<CR>
+                    :nnoremap <leader>fl :call FTLList()<CR>
 
-:call PutBigList()
+:call FTLBigList()
 
 It will insert the new (since FreeMarker 2.3.23) list tags(#list-#items-/#items-#else-/#list).
 Cursor after the list tag in insert mode
 You can use this map in your vimrc
 
-                    :nnoremap <leader>fb :call PutBigList()<CR>
+                    :nnoremap <leader>fb :call FTLBigList()<CR>
 
-:call PutSwitch()
+:call FTLSwitch()
 
 It will insert the switch tags(#switch, 3 #case and #break, #default, /#switch).
 Cursor after the switch tag in insert mode
 You can use this map in your vimrc
 
-                    :nnoremap <leader>fs :call PutSwitch()<CR>
+                    :nnoremap <leader>fs :call FTLSwitch()<CR>
 
-:call PutAssign()
+:call FTLAssign()
 
 It will insert the assign tag and leave the cursor on insert mode
 
-                    :nnoremap <leader>fa :call PutAssign()<CR>
+                    :nnoremap <leader>fa :call FTLAssign()<CR>
 
