@@ -30,7 +30,8 @@ The color will depend on your colorscheme
 Functions and Mapping
 ---------------------
 
-The plugin has the follwing functions that you can map in your vimrc :
+The plugin has the follwing functions that will only be load when opening a
+.ftl file, you can map them in your vimrc :
 
 :call FTLIf()
 
