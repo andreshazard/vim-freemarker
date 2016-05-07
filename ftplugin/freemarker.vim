@@ -1,0 +1,24 @@
+function FTLList()
+    execute "normal! i<#list  as item>\n\n<#else>\n\n</#list>\e?<#list\r2ell"
+    startinsert
+endfunction
+
+function FTLBigList()
+    execute "normal! i<#list  >\n\n\t<#items as  >\n\n</#items>\n\n\b<#else>\n\n</#list>\e?<#list\r2ell"
+    startinsert
+endfunction
+
+function FTLIf()
+    execute "normal! i<#if  >\n\n<#else>\n\n</#if>\e?<#if\r2ell"
+    startinsert
+endfunction
+
+function FTLSwitch()
+    execute "normal! i<#switch  >\n\t<#case  >\n\n\t<#break>\n\b<#case  >\n\n\t<#break>\n\b<#case  >\n\n\t<#break>\n\b<#default>\n\n\b</#switch>\e?<#switch\r2ell"
+    startinsert
+endfunction
+
+function FTLAssign()
+    execute "normal! i<#assign   >\eFnll"
+    startinsert
+endfunction
