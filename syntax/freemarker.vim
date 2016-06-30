@@ -5,7 +5,7 @@ endif
 "Basic html syntax{{{
 syntax keyword freemarkerKeyword div p html body head title a href br b i form
 syntax keyword freemarkerKeyword pre hr h1 h2 h3 tr td table thead th tbody type
-syntax keyword freemarkerKeyword class caption style button input
+syntax keyword freemarkerKeyword class caption style button input label script
 syntax keyword freemarkerBoolean true false
 "}}}
 
