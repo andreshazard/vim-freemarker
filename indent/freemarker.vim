@@ -40,7 +40,7 @@ call add(s:special, 'recover')
 
 let s:tag_expr = join(s:tags, '\|')
 let s:tag_close_expr = join(s:closetags, '\|')
-let s:special = join(s:special, '\|')
+let s:special_expr = join(s:special, '\|')
 
 function! FreemarkerIndent()
   let line = getline(v:lnum)
@@ -57,7 +57,7 @@ function! FreemarkerIndent()
     return indent(previousNum) + &tabstop
   endif
 
-  if line =~'</#\('.s:tag_close_expr.'\)' || line =~'<#\('.s:special.'\)'
+  if line =~'</#\('.s:tag_close_expr.'\)' || line =~'<#\('.s:special_expr.'\)'
     return indent(previousNum) - &tabstop
   endif
 
