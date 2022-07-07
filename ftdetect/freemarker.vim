@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.ftl set filetype=freemarker
+au BufNewFile,BufRead *.ftl,*.ftlh,*.ftlx set filetype=freemarker
